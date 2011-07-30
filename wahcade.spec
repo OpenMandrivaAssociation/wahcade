@@ -48,7 +48,7 @@ It features :
 rm -rf %{buildroot}
 python setup.py install --prefix=%{_prefix} --root=%{buildroot}
 
-rm -f %{buildroot}%{py_platsitedir}/%{name}-%{version}*
+rm -f %{buildroot}%{py_puresitedir}/%{name}-%{version}*
 
 %find_lang %{name}
 
