@@ -71,3 +71,18 @@ rm -rf %{buildroot}
 %{_datadir}/applications/*
 %{_datadir}/pixmaps/*
 
+
+
+%changelog
+* Sat Jul 30 2011 Andrey Bondrov <abondrov@mandriva.org> 0.99-0.pre8mdv2012.0
++ Revision: 692384
+- Fix build
+- imported package wahcade
+
+
+* Sun Jul 24 2011 Andrey Bondrov <bondrov@math.dvgu.ru> 0.99-1.pre8mdv2011.0
+- Import from PLF
+- Remove PLF reference
+
+* Fri Sep 11 2009 Guillaume Bedot <littletux@zarb.org> 0.99-0.pre8plf2010.0
+- First PLF package
