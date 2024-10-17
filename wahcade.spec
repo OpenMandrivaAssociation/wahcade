@@ -6,7 +6,7 @@ Release:		%mkrel 0.%{beta}
 Summary:	Front end for SDLMAME
 License:	GPLv2+
 Group:		Emulators
-URL:		http://www.anti-particle.com/wahcade.shtml
+URL:		https://www.anti-particle.com/wahcade.shtml
 Source0:	http://www.anti-particle.com/projects/%{name}/%{name}-%{version}%{beta}.tar.gz
 Patch0:		wahcade-0.99pre8-install-fixes.patch
 
